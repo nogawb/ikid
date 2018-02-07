@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ThirdViewController.swift
 //  ikid
 //
 //  Created by Ben Nogawa on 2/6/18.
@@ -8,10 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-
-    let joke = "Maloney"
+class ThirdViewController: UIViewController {
+    
+    let joke = "Connor"
     let punchline = "Eats SOOOOOOOOOO MUCH 8===>"
+    
     
     @IBOutlet weak var label: UILabel!
     
@@ -32,15 +33,24 @@ class FirstViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
         label.text = self.joke
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destinationViewController.
+        // Pass the selected object to the new view controller.
+    }
+    */
 
 }
-
