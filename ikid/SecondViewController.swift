@@ -9,7 +9,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-    
+    //PUNS
     let joke = "Brett"
     let punchline = "Eats SOOOOOOOOOO MUCH 8===>"
     
@@ -22,11 +22,13 @@ class SecondViewController: UIViewController {
         if label.text == self.joke
         {
             label.text = self.punchline
+            UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
             button.setTitle("Back", for: .normal)
         }
         else
         {
             label.text = self.joke
+            UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
             button.setTitle("Punchline", for: .normal)
         }
     }

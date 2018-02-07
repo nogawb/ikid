@@ -14,6 +14,7 @@
 		99820C22202ACF9F0060BF81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99820C21202ACF9F0060BF81 /* Assets.xcassets */; };
 		99820C25202ACF9F0060BF81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99820C23202ACF9F0060BF81 /* LaunchScreen.storyboard */; };
 		99820C2D202AD3C40060BF81 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99820C2C202AD3C40060BF81 /* ThirdViewController.swift */; };
+		99820C2F202AE45B0060BF81 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99820C2E202AE45B0060BF81 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		99820C24202ACF9F0060BF81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99820C26202ACF9F0060BF81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99820C2C202AD3C40060BF81 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		99820C2E202AE45B0060BF81 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		99820C0C202ACF9F0060BF81 = {
 			isa = PBXGroup;
 			children = (
+				99820C2E202AE45B0060BF81 /* FourthViewController.swift */,
 				99820C17202ACF9F0060BF81 /* ikid */,
 				99820C16202ACF9F0060BF81 /* Products */,
 			);
@@ -146,6 +149,7 @@
 				99820C19202ACF9F0060BF81 /* AppDelegate.swift in Sources */,
 				99820C2D202AD3C40060BF81 /* ThirdViewController.swift in Sources */,
 				99820C1B202ACF9F0060BF81 /* FirstViewController.swift in Sources */,
+				99820C2F202AE45B0060BF81 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

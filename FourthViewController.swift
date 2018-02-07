@@ -1,5 +1,5 @@
 //
-//  ThirdViewController.swift
+//  FourthViewController.swift
 //  ikid
 //
 //  Created by Ben Nogawa on 2/6/18.
@@ -8,18 +8,36 @@
 
 import UIKit
 
-class ThirdViewController: UIViewController {
-    //DAD JOKES
-    let joke = "Connor"
-    let punchline = "Eats SOOOOOOOOOO MUCH 8===>"
-    
+class FourthViewController: UIViewController {
+    //KNOCK KNOCK JOKES
+    let knockKnock = "Knock Knock"
+    let whosThere = "Who's There?"
+    let setup = "Wanda Smellmop"
+    let setupWho = "Wanda Smellmop who?"
+    let punchline = "EWWW GROSS!"
     
     @IBOutlet weak var label: UILabel!
     
     @IBOutlet weak var button: UIButton!
     
     @IBAction func buttonSwitch(_ sender: UIButton) {
-        if label.text == self.joke
+        if label.text == self.knockKnock
+        {
+            label.text = self.whosThere
+            UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
+            button.setTitle("Next", for: .normal)
+        }
+        else if label.text == self.whosThere
+        {
+            label.text = self.setup
+            UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
+        }
+        else if label.text == self.setup
+        {
+            label.text = self.setupWho
+            UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
+        }
+        else if label.text == self.setupWho
         {
             label.text = self.punchline
             UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
@@ -27,15 +45,15 @@ class ThirdViewController: UIViewController {
         }
         else
         {
-            label.text = self.joke
+            label.text = self.knockKnock
             UIView.transition(with: label, duration: 0.4, options: .transitionFlipFromRight, animations: nil, completion: nil)
-            button.setTitle("Punchline", for: .normal)
+            button.setTitle("Next", for: .normal)
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = self.joke
+        label.text = knockKnock
         // Do any additional setup after loading the view.
     }
 
