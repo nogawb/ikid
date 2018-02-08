@@ -12,9 +12,9 @@ class FourthViewController: UIViewController {
     //KNOCK KNOCK JOKES
     let knockKnock = "Knock Knock"
     let whosThere = "Who's There?"
-    let setup = "Wanda Smellmop"
-    let setupWho = "Wanda Smellmop who?"
-    let punchline = "EWWW GROSS!"
+    let setup = "Kanga"
+    let setupWho = "Kanga who?"
+    let punchline = "Actually, its Kangaroo."
     
     @IBOutlet weak var label: UILabel!
     

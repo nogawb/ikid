@@ -10,8 +10,8 @@ import UIKit
 
 class SecondViewController: UIViewController {
     //PUNS
-    let joke = "Brett"
-    let punchline = "Eats SOOOOOOOOOO MUCH 8===>"
+    let joke = "Was watching Star Wars with my friend. She asked why Luke was climbing inside a Tauntaun and I said to keep warm"
+    let punchline = "She asked how warm it is inside. I replied Lukewarm."
     
     
     @IBOutlet weak var label: UILabel!

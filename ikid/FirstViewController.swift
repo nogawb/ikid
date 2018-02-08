@@ -10,8 +10,8 @@ import UIKit
 
 class FirstViewController: UIViewController {
     //GOOD JOKES
-    let joke = "Maloney"
-    let punchline = "SUCKS"
+    let joke = "Why go to the paint store when you're on a diet?"
+    let punchline = "You can get thinner there!"
     
     @IBOutlet weak var label: UILabel!
     

@@ -10,8 +10,8 @@ import UIKit
 
 class ThirdViewController: UIViewController {
     //DAD JOKES
-    let joke = "Connor"
-    let punchline = "Eats SOOOOOOOOOO MUCH 8===>"
+    let joke = "Imagine being held at gunpoint (bear with me) by a literate animal."
+    let punchline = "The only hope of rescue is (BEAR WITH ME) posting a coded message in your homework."
     
     
     @IBOutlet weak var label: UILabel!

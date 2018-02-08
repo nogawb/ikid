@@ -44,7 +44,6 @@
 		99820C0C202ACF9F0060BF81 = {
 			isa = PBXGroup;
 			children = (
-				99820C2E202AE45B0060BF81 /* FourthViewController.swift */,
 				99820C17202ACF9F0060BF81 /* ikid */,
 				99820C16202ACF9F0060BF81 /* Products */,
 			);
@@ -65,6 +64,7 @@
 				99820C1A202ACF9F0060BF81 /* FirstViewController.swift */,
 				99820C1C202ACF9F0060BF81 /* SecondViewController.swift */,
 				99820C2C202AD3C40060BF81 /* ThirdViewController.swift */,
+				99820C2E202AE45B0060BF81 /* FourthViewController.swift */,
 				99820C1E202ACF9F0060BF81 /* Main.storyboard */,
 				99820C21202ACF9F0060BF81 /* Assets.xcassets */,
 				99820C23202ACF9F0060BF81 /* LaunchScreen.storyboard */,
